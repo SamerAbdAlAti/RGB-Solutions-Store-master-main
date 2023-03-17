@@ -93,6 +93,8 @@ class _CheckoutDekstopState extends State<CheckoutDekstop> {
                             PhoneConverter().toPhone(user.email));
                       },
                       readyOrder: (value) {
+                        print(value.order);
+                        print("  /// TODO: Check This");
                         /// TODO: Check This
                         SchedulerBinding.instance.addPostFrameCallback((_) {
                           Beamer.of(context).beamToReplacementNamed(
@@ -104,6 +106,7 @@ class _CheckoutDekstopState extends State<CheckoutDekstop> {
                         return const SizedBox.shrink();
                       },
                       ready: (value) {
+
                         /// TODO: Check This
                         SchedulerBinding.instance.addPostFrameCallback((_) {
                           DialogManager.successDialog(
@@ -171,8 +174,7 @@ class _CheckoutDekstopState extends State<CheckoutDekstop> {
                                 padding: const EdgeInsets.all(12),
                                 color: Theme.of(context).cardTheme.color,
                                 child: Column(
-                                  crossAxisAlignment:
-                                      CrossAxisAlignment.stretch,
+                                  crossAxisAlignment: CrossAxisAlignment.stretch,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     const Text(
@@ -180,17 +182,15 @@ class _CheckoutDekstopState extends State<CheckoutDekstop> {
                                       textAlign: TextAlign.center,
                                     ),
                                     const Divider(
-                                      color: Colors.black45,
+                                      color: Colors.white,
                                       height: 20,
                                     ),
                                     TextRow(
                                       title: "اسم المستخدم: ",
-                                      value:
-                                          "${firstName.text} ${lastName.text}",
+                                      value: "${firstName.text} ${lastName.text}",
                                     ),
                                     const SizedBox(height: 10),
-                                    TextRow(
-                                        title: "رقم الهاتف: ", value: phone),
+                                    TextRow(title: "رقم الهاتف: ", value: phone),
                                     const SizedBox(height: 20),
                                   ],
                                 )),
@@ -204,6 +204,10 @@ class _CheckoutDekstopState extends State<CheckoutDekstop> {
                         ),
                       ),
                     ),
+
+
+
+
                     Expanded(
                       flex: 3,
                       child: Form(
