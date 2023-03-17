@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>371128519513-knaq7hlglud8v23uos29i23k45jhnol9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.371128519513-knaq7hlglud8v23uos29i23k45jhnol9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD9JptWea8eq_8A86CdOfkPI5hgZz2fiQk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>371128519513</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.saleorAppFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>alhawari-store-settings</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alhawari-store-settings.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:371128519513:ios:184e063be4f0c27f54da48</string>
+</dict>
+</plist>

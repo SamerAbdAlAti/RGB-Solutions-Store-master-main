@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "alhawari-store-settings"
+  },
+  "targets": {
+    "alhawari-store-settings": {
+      "hosting": {
+        "web": [
+          "alhawari-store-settings"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,65 @@
+{
+  "category": {
+    "id": "Q2F0ZWdvcnk6MjU=",
+    "name": "Accessories",
+    "description": null,
+    "backgroundImage": null,
+    "products": {
+      "edges": [
+        {
+          "node": {
+            "id": "UHJvZHVjdDoxNDU=",
+            "name": "Battle-tested at brands like Lush",
+            "weight": {
+              "unit": "KG",
+              "value": 0.8
+            },
+            "description": "{\"time\": 1652811542659, \"blocks\": [{\"id\": \"g2sLxZcLZa\", \"data\": {\"text\": \"Scale <b>effortlessly</b>\"}, \"type\": \"paragraph\"}], \"version\": \"2.22.2\"}",
+            "thumbnail": {
+              "url": "https://alhowaridates.eu.saleor.cloud/media/thumbnails/products/saleor-battle-tested-book_thumbnail_256.png"
+            },
+            "category": {
+              "id": "Q2F0ZWdvcnk6MjY=",
+              "name": "Audiobooks",
+              "description": null,
+              "backgroundImage": null
+            },
+            "defaultVariant": {
+              "quantityAvailable": 50,
+              "quantityLimitPerCustomer": null
+            },
+            "pricing": {
+              "priceRange": {
+                "start": {
+                  "gross": {
+                    "currency": "USD",
+                    "amount": 10
+                  }
+                }
+              },
+              "priceRangeUndiscounted": {
+                "start": {
+                  "gross": {
+                    "amount": 10
+                  }
+                }
+              }
+            },
+            "media": [
+              {
+                "url": "https://alhowaridates.eu.saleor.cloud/media/products/saleor-battle-tested-book.png"
+              }
+            ]
+          }
+        }
+      ],
+      "totalCount": 10,
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "startCursor": "WyJiYXR0bGUtdGVzdGVkLWF0LWJyYW5kcy1saWtlLWx1c2giXQ==",
+        "endCursor": "WyJiYXR0bGUtdGVzdGVkLWF0LWJyYW5kcy1saWtlLWx1c2giXQ=="
+      }
+    }
+  }
+}

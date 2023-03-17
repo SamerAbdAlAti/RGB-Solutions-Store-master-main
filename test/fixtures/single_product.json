@@ -1,0 +1,46 @@
+{
+  "product": {
+    "id": "UHJvZHVjdDoxNTI=",
+    "name": "Apple Juice",
+    "weight": {
+      "unit": "KG",
+      "value": 0.8
+    },
+    "description": "{\"time\": 1653425438149, \"blocks\": [{\"id\": \"rGR983yNVl\", \"data\": {\"text\": \"<b>Fell straight from the tree</b>, on to Newton\\u2019s head, then into the bottle. The autumn taste of English apples. Brought to you by gravity.\"}, \"type\": \"paragraph\"}], \"version\": \"2.22.2\"}",
+    "thumbnail": {
+      "url": "https://alhowaridates.eu.saleor.cloud/media/thumbnails/products/saleor-apple-drink_thumbnail_256.png"
+    },
+    "category": {
+      "id": "Q2F0ZWdvcnk6NDM=",
+      "name": "Juices",
+      "description": null,
+      "backgroundImage": null
+    },
+    "defaultVariant": {
+      "quantityAvailable": 50,
+      "quantityLimitPerCustomer": null
+    },
+    "pricing": {
+      "priceRange": {
+        "start": {
+          "gross": {
+            "currency": "USD",
+            "amount": 1.6
+          }
+        }
+      },
+      "priceRangeUndiscounted": {
+        "start": {
+          "gross": {
+            "amount": 1.99
+          }
+        }
+      }
+    },
+    "media": [
+      {
+        "url": "https://alhowaridates.eu.saleor.cloud/media/products/saleor-apple-drink.png"
+      }
+    ]
+  }
+}
